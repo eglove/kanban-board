@@ -123,7 +123,7 @@ function addToColumn(column) {
   const selectedArray = listArrays[column];
   selectedArray.push(itemText);
   addItems[column].textContent = '';
-  updateDOM(column);
+  updateDOM();
 }
 
 // Show Add Item Input Box
